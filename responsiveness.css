@@ -1,0 +1,176 @@
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    .box3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lose, .gain {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .size {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #navitem {
+        margin-left: 20px;
+    }
+
+    .narleft {
+        margin-left: 0;
+    }
+
+    .effect {
+        font-size: 40px;
+        padding-top: 200px;
+    }
+
+    .input1 {
+        width: 80%;
+    }
+
+    .acclogin, .create {
+        width: 80%;
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+    .effect {
+        font-size: 30px;
+    }
+
+    .circle {
+        height: 100px;
+        width: 100px;
+    }
+
+    .boxx {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .dabba {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #navitem a {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    .size1 {
+        height: 100px;
+        width: 100px;
+    }
+
+    #scroll {
+        width: 100%;
+    }
+}
+
+
+/* hkjkgl*/
+/* Login and Sign-in Forms Responsiveness */
+@media (max-width: 768px) {
+    .loginnn, .signinnn {
+        width: 90%; /* Make the form adapt to smaller screen sizes */
+        padding-top: 20px;
+        border-radius: 20px;
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .login, .signin {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .input1 {
+        width: 90%;
+        height: 35px; /* Slightly reduce height for smaller screens */
+        margin-top: 15px;
+    }
+
+    .acclogin, .create {
+        width: 90%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .loginnn, .signinnn {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .input1 {
+        width: 95%;
+        height: 30px; /* Adjust input field height for very small screens */
+    }
+
+    .acclogin, .create {
+        width: 95%;
+        font-size: 14px;
+    }
+}
+
+/* Scroll Class Responsiveness */
+@media (max-width: 768px) {
+    .scroll1 {
+        height: 150px; /* Reduce height of scroll section on smaller screens */
+    }
+
+    .circle {
+        height: 150px;
+        width: 150px; /* Adjust the size of the circles in the scroll area */
+    }
+
+    #scroll {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .scroll1 {
+        height: 120px; /* Further reduce height for mobile screens */
+    }
+
+    .circle {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+/* General adjustments for better responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        height: 60vh; /* Reduce navbar height for tablets */
+    }
+
+    .effect {
+        font-size: 50px; /* Adjust effect text size for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        height: 50vh; /* Reduce navbar height further for mobile screens */
+    }
+
+    .effect {
+        font-size: 30px; /* Adjust effect text size for mobile screens */
+    }
+
+    #navitem {
+        margin-left: 10px; /* Less margin on mobile for nav items */
+    }
+}
